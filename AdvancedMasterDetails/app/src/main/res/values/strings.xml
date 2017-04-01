@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AdvancedMasterDetails</string>
+    <string name="calc_error">wrong data</string>
+    <string name="title_currency">title</string>
+    <string name="currency_calculator">currency_calculator</string>
+    <string name="currencyValue">currencyValue</string>
+    <string name="calc">calc</string>
+    <string name="investment">investment</string>
+    <string name="label_name">label_name</string>
+</resources>

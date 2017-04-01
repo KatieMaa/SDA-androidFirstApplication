@@ -7,7 +7,7 @@
     tools:context="sdacademy.pl.master_detail.DetailActivity">
 
     <fragment
-        android:id="@+id/fragment"
+        android:id="@+id/detailFragment"
         android:name="sdacademy.pl.master_detail.DetailFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

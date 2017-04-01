@@ -26,7 +26,7 @@ public class DetailFragment extends Fragment {
 
     public void showBasicData() {
         titleTextView.setText("Basic data");
-        detailsTextView.setText("Jan Kowalski");
+        detailsTextView.setText("Janiiii Kowalski");
     }
 
     public void showDetailsData() {

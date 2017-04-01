@@ -19,11 +19,11 @@ public class MainActivity extends Activity {
         if (detailFragment != null) {
             detailFragment.showBasicData();
         } else {
-            Intent intent = new Intent (this, DetailActivity.class);
+            Intent intent = new Intent(this, DetailActivity.class);
+            intent.putExtra(DetailActivity.TO_SHOW, DetailActivity.DETAILS);
             startActivity(intent);
         }
     }
-
 
 
     private DetailFragment getDetailFragment() {
@@ -36,8 +36,12 @@ public class MainActivity extends Activity {
         if (detailFragment != null) {
             detailFragment.showDetailsData();
         } else {
-            Intent intent = new Intent (this, DetailActivity.class);
+            Intent intent = new Intent(this, DetailActivity.class);
+            intent.putExtra("nazwa", 1);
             startActivity(intent);
         }
+
+
     }
 }
+
