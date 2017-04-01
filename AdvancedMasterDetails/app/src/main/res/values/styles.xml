@@ -5,4 +5,11 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="CalcButton" parent="android:Widget.Holo.Button">
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:text">@string/calc_button</item>
+        <item name="android:textColor">@color/buttonTextColor</item>
+    </style>
+
+    <string name="calc_button">calc_button</string>
 </resources>
